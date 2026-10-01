@@ -1,0 +1,38 @@
+# IntelliJ IDEA and other editor metadata
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Generated Java output
+/build/
+/out/
+/target/
+/bin/
+*.class
+*.log
+hs_err_pid*
+replay_pid*
+
+# DanoGameLab is included with redistribution permission
+/lib/*
+!/lib/README.md
+!/lib/DanoGameLab.jar
+
+# Ignore other JAR files, but keep the required game engine
+*.jar
+!/lib/DanoGameLab.jar
+
+# Ignore an unpacked/local DanoGameLab source directory if present
+/DanoGameLab/
+
+# Course submissions and local interview notes
+*.pdf
+*.zip
+/INTERVIEW_PREP.md
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
